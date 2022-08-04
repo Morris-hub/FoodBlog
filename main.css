@@ -1,0 +1,108 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-box{
+
+    margin-top: 100px;
+    min-height: 800px;
+    width: 900px;
+    background-color: white;
+
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: thin;
+   /* box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.2);*/
+}
+
+.footer{
+    margin-top: 300px;
+    height: 400px;
+    width: 100%;
+    background-color: grey;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3vh;
+
+    height: 5vh;
+    width: 100%;
+    background-color: #7ECF3C;
+}
+.page-description{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    line-height: 1.5;
+    
+    padding-top:100px ;
+    width: 900px;
+}
+.page-content-table{
+    color: #7ECF3C;
+    list-style-type: none;
+    padding-top: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+}
+
+.page-content-table a{
+    color: #7ECF3C;
+}
+
+.page-content-table li{
+    margin-bottom: 25px;
+}
+
+.res-img{
+    height: 500px;
+    width: 900px;
+}
+
+.res-name{
+    font-family: 'Raleway', sans-serif;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.review-text{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    line-height: 1.5;
+    padding-left: 15px;
+    padding-right: 15px;
+  
+}
+
+@media only screen and (max-width: 600px) {
+    .content-box{
+        border-color: lightgrey;
+        border-style: solid;
+        border-width: thin;
+
+
+        margin-left: 10px;
+        margin-right: 10px;
+        height: auto;
+        word-wrap: break-word;
+    }
+    .res-img{
+        height: 25%;
+        width: 100%;
+    }
+    .review-text{
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+        padding-bottom: 30px;
+    }
+    #map { 
+        width: 100%;
+        height: 450px;
+    }
+}
